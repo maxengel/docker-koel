@@ -10,7 +10,7 @@ LABEL   devoply.type="site" \
         devoply.require="mariadb etopian/nginx-proxy" \
         devoply.description="Koel music player." \
         devoply.name="Koel" \
-        devoply.params="docker run -d --name {container_name} -e VIRTUAL_HOST={virtual_hosts} -v /data/sites/{domain_name}:/DATA etopian/docker-koel"
+        devoply.params="docker run -d --name {container_name} -e VIRTUAL_HOST={virtual_hosts} -v /data/sites/{domain_name}:/DATA maxengel/docker-koel"
 
 
 RUN apk update \
