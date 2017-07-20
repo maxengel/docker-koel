@@ -1,5 +1,5 @@
 FROM alpine:edge
-MAINTAINER Etopian Inc. <contact@etopian.com>
+MAINTAINER Awecelot <shout@awecelot.com>
 
 
 
