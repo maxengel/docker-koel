@@ -67,6 +67,8 @@ COPY files/.env /DATA/htdocs/.env
 
 RUN chown nginx:nginx /DATA/htdocs/.env
 
+RUN su nginx -c "cd /DATA/htdocs && php artisan key:generate"
+
 #RUN su nginx -c "cd /DATA/htdocs && php artisan init"
 
 EXPOSE 80
